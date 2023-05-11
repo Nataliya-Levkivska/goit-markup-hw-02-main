@@ -59,17 +59,21 @@ body {
     color: var(--pressed-btn);
 }
 
+.contacts {
+font-style: normal;
+}
+
 .contacts-item-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
 .contacts:hover,
 .contacts:focus {
-    color: var(--pressed-btn);
+    color: #404BBF;
 }
 
 /*Hero*/
@@ -109,12 +113,12 @@ body {
 }
 
 
-/*Section one*/
+/*Section two*/
 
 .title-strategy {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
@@ -127,7 +131,7 @@ body {
     color: var(--text-color);
 }
 
-/*Section two and three*/
+/*Section three and four*/
 
 .title-service, .title-team {
     font-weight: 700;
@@ -147,10 +151,10 @@ body {
     color: var(--text-color);
 }
 
-/*Section three*/
+/*Section four*/
 
 .team {
-    background-color: var(--light-bg);
+    background-color: #FFFFFF;
 }
 
 .title-team {
@@ -162,8 +166,6 @@ body {
     text-transform: capitalize;
     color: var(--title-color);
 }
-
-
 
 .team-card {
     font-weight: 500;
@@ -216,7 +218,7 @@ body {
 .filter-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
-}.
+}
 
 .portfolio-title {
     font-weight: 500;

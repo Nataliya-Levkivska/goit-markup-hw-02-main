@@ -61,8 +61,8 @@ body {
 font-style: normal;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-item-link:hover,
+.contacts-item-link:focus {
     color: var(--pressed-btn);
 }
 
@@ -74,10 +74,6 @@ font-style: normal;
     color: var(--text-color);
 }
 
-.contacts:hover,
-.contacts:focus {
-    color: #404BBF;
-}
 
 /*Hero*/
 
